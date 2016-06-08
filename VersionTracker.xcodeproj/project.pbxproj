@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274A7E7C1D07CD9800397F9B /* VersionTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A7E721D07CD9800397F9B /* VersionTracker.framework */; };
+		274A7E981D07CDCF00397F9B /* VersionTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A7E8E1D07CDCF00397F9B /* VersionTracker.framework */; };
+		274A7EA51D07CDE800397F9B /* VersionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E9E61CB0E17600AEDAE0 /* VersionTracker.swift */; };
+		274A7EA61D07CDEA00397F9B /* VersionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E9E61CB0E17600AEDAE0 /* VersionTracker.swift */; };
+		274A7EA71D07CDEB00397F9B /* VersionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E9E61CB0E17600AEDAE0 /* VersionTracker.swift */; };
+		274A7EA81D07CDF400397F9B /* VersionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E6E9CB1CB0DECE00AEDAE0 /* VersionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274A7EA91D07CDF500397F9B /* VersionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E6E9CB1CB0DECE00AEDAE0 /* VersionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274A7EAA1D07CDF600397F9B /* VersionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E6E9CB1CB0DECE00AEDAE0 /* VersionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274A7EAB1D07CE0200397F9B /* VersionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E9D71CB0DECE00AEDAE0 /* VersionTrackerTests.swift */; };
+		274A7EAC1D07CE0200397F9B /* VersionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E9D71CB0DECE00AEDAE0 /* VersionTrackerTests.swift */; };
 		27E6E9CC1CB0DECE00AEDAE0 /* VersionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E6E9CB1CB0DECE00AEDAE0 /* VersionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E6E9D31CB0DECE00AEDAE0 /* VersionTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E6E9C81CB0DECE00AEDAE0 /* VersionTracker.framework */; };
 		27E6E9D81CB0DECE00AEDAE0 /* VersionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6E9D71CB0DECE00AEDAE0 /* VersionTrackerTests.swift */; };
@@ -14,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		274A7E7D1D07CD9800397F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E6E9BF1CB0DECE00AEDAE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274A7E711D07CD9800397F9B;
+			remoteInfo = "VersionTracker-tvOS";
+		};
+		274A7E991D07CDCF00397F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E6E9BF1CB0DECE00AEDAE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274A7E8D1D07CDCF00397F9B;
+			remoteInfo = "VersionTracker-Mac";
+		};
 		27E6E9D41CB0DECE00AEDAE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 27E6E9BF1CB0DECE00AEDAE0 /* Project object */;
@@ -24,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274A7E651D07CCE200397F9B /* VersionTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VersionTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274A7E721D07CD9800397F9B /* VersionTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VersionTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274A7E7B1D07CD9800397F9B /* VersionTracker-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VersionTracker-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274A7E8E1D07CDCF00397F9B /* VersionTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VersionTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274A7E971D07CDCF00397F9B /* VersionTracker-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VersionTracker-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E6E9C81CB0DECE00AEDAE0 /* VersionTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VersionTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E6E9CB1CB0DECE00AEDAE0 /* VersionTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionTracker.h; sourceTree = "<group>"; };
 		27E6E9CD1CB0DECE00AEDAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +63,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		274A7E611D07CCE200397F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E6E1D07CD9800397F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E781D07CD9800397F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7E7C1D07CD9800397F9B /* VersionTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E8A1D07CDCF00397F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E941D07CDCF00397F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7E981D07CDCF00397F9B /* VersionTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27E6E9C41CB0DECE00AEDAE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,6 +132,11 @@
 			children = (
 				27E6E9C81CB0DECE00AEDAE0 /* VersionTracker.framework */,
 				27E6E9D21CB0DECE00AEDAE0 /* VersionTracker-iOSTests.xctest */,
+				274A7E651D07CCE200397F9B /* VersionTracker.framework */,
+				274A7E721D07CD9800397F9B /* VersionTracker.framework */,
+				274A7E7B1D07CD9800397F9B /* VersionTracker-tvOSTests.xctest */,
+				274A7E8E1D07CDCF00397F9B /* VersionTracker.framework */,
+				274A7E971D07CDCF00397F9B /* VersionTracker-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,10 +146,6 @@
 			children = (
 				27E6E9CB1CB0DECE00AEDAE0 /* VersionTracker.h */,
 				27E6E9CD1CB0DECE00AEDAE0 /* Info.plist */,
-				27E6E9E21CB0E01000AEDAE0 /* iOS */,
-				27E6E9E31CB0E01000AEDAE0 /* macOS */,
-				27E6E9E41CB0E01000AEDAE0 /* tvOS */,
-				27E6E9E51CB0E01000AEDAE0 /* watchOS */,
 				27E6E9E61CB0E17600AEDAE0 /* VersionTracker.swift */,
 			);
 			path = VersionTracker;
@@ -93,37 +160,33 @@
 			path = VersionTrackerTests;
 			sourceTree = "<group>";
 		};
-		27E6E9E21CB0E01000AEDAE0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		27E6E9E31CB0E01000AEDAE0 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		27E6E9E41CB0E01000AEDAE0 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
-		27E6E9E51CB0E01000AEDAE0 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = watchOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		274A7E621D07CCE200397F9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EAA1D07CDF600397F9B /* VersionTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E6F1D07CD9800397F9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EA81D07CDF400397F9B /* VersionTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E8B1D07CDCF00397F9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EA91D07CDF500397F9B /* VersionTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27E6E9C51CB0DECE00AEDAE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +198,96 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		274A7E641D07CCE200397F9B /* VersionTracker-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A7E6A1D07CCE200397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-watchOS" */;
+			buildPhases = (
+				274A7E601D07CCE200397F9B /* Sources */,
+				274A7E611D07CCE200397F9B /* Frameworks */,
+				274A7E621D07CCE200397F9B /* Headers */,
+				274A7E631D07CCE200397F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VersionTracker-watchOS";
+			productName = "VersionTracker-watchOS";
+			productReference = 274A7E651D07CCE200397F9B /* VersionTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		274A7E711D07CD9800397F9B /* VersionTracker-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A7E831D07CD9800397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-tvOS" */;
+			buildPhases = (
+				274A7E6D1D07CD9800397F9B /* Sources */,
+				274A7E6E1D07CD9800397F9B /* Frameworks */,
+				274A7E6F1D07CD9800397F9B /* Headers */,
+				274A7E701D07CD9800397F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VersionTracker-tvOS";
+			productName = "VersionTracker-tvOS";
+			productReference = 274A7E721D07CD9800397F9B /* VersionTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		274A7E7A1D07CD9800397F9B /* VersionTracker-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A7E861D07CD9800397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-tvOSTests" */;
+			buildPhases = (
+				274A7E771D07CD9800397F9B /* Sources */,
+				274A7E781D07CD9800397F9B /* Frameworks */,
+				274A7E791D07CD9800397F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274A7E7E1D07CD9800397F9B /* PBXTargetDependency */,
+			);
+			name = "VersionTracker-tvOSTests";
+			productName = "VersionTracker-tvOSTests";
+			productReference = 274A7E7B1D07CD9800397F9B /* VersionTracker-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		274A7E8D1D07CDCF00397F9B /* VersionTracker-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A7E9F1D07CDCF00397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-Mac" */;
+			buildPhases = (
+				274A7E891D07CDCF00397F9B /* Sources */,
+				274A7E8A1D07CDCF00397F9B /* Frameworks */,
+				274A7E8B1D07CDCF00397F9B /* Headers */,
+				274A7E8C1D07CDCF00397F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VersionTracker-Mac";
+			productName = "VersionTracker-Mac";
+			productReference = 274A7E8E1D07CDCF00397F9B /* VersionTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		274A7E961D07CDCF00397F9B /* VersionTracker-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274A7EA21D07CDCF00397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-MacTests" */;
+			buildPhases = (
+				274A7E931D07CDCF00397F9B /* Sources */,
+				274A7E941D07CDCF00397F9B /* Frameworks */,
+				274A7E951D07CDCF00397F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274A7E9A1D07CDCF00397F9B /* PBXTargetDependency */,
+			);
+			name = "VersionTracker-MacTests";
+			productName = "VersionTracker-MacTests";
+			productReference = 274A7E971D07CDCF00397F9B /* VersionTracker-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		27E6E9C71CB0DECE00AEDAE0 /* VersionTracker-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E6E9DC1CB0DECE00AEDAE0 /* Build configuration list for PBXNativeTarget "VersionTracker-iOS" */;
@@ -181,6 +334,21 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Kyle LeNeau";
 				TargetAttributes = {
+					274A7E641D07CCE200397F9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					274A7E711D07CD9800397F9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					274A7E7A1D07CD9800397F9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					274A7E8D1D07CDCF00397F9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					274A7E961D07CDCF00397F9B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					27E6E9C71CB0DECE00AEDAE0 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -203,11 +371,51 @@
 			targets = (
 				27E6E9C71CB0DECE00AEDAE0 /* VersionTracker-iOS */,
 				27E6E9D11CB0DECE00AEDAE0 /* VersionTracker-iOSTests */,
+				274A7E711D07CD9800397F9B /* VersionTracker-tvOS */,
+				274A7E7A1D07CD9800397F9B /* VersionTracker-tvOSTests */,
+				274A7E8D1D07CDCF00397F9B /* VersionTracker-Mac */,
+				274A7E961D07CDCF00397F9B /* VersionTracker-MacTests */,
+				274A7E641D07CCE200397F9B /* VersionTracker-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		274A7E631D07CCE200397F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E701D07CD9800397F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E791D07CD9800397F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E8C1D07CDCF00397F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E951D07CDCF00397F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27E6E9C61CB0DECE00AEDAE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +433,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		274A7E601D07CCE200397F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EA71D07CDEB00397F9B /* VersionTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E6D1D07CD9800397F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EA51D07CDE800397F9B /* VersionTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E771D07CD9800397F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EAB1D07CE0200397F9B /* VersionTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E891D07CDCF00397F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EA61D07CDEA00397F9B /* VersionTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274A7E931D07CDCF00397F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274A7EAC1D07CE0200397F9B /* VersionTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27E6E9C31CB0DECE00AEDAE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +492,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		274A7E7E1D07CD9800397F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274A7E711D07CD9800397F9B /* VersionTracker-tvOS */;
+			targetProxy = 274A7E7D1D07CD9800397F9B /* PBXContainerItemProxy */;
+		};
+		274A7E9A1D07CDCF00397F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274A7E8D1D07CDCF00397F9B /* VersionTracker-Mac */;
+			targetProxy = 274A7E991D07CDCF00397F9B /* PBXContainerItemProxy */;
+		};
 		27E6E9D51CB0DECE00AEDAE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 27E6E9C71CB0DECE00AEDAE0 /* VersionTracker-iOS */;
@@ -252,6 +510,178 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		274A7E6B1D07CCE200397F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VersionTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leneau.VersionTracker;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		274A7E6C1D07CCE200397F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VersionTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leneau.VersionTracker;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		274A7E841D07CD9800397F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VersionTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leneau.VersionTracker;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		274A7E851D07CD9800397F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VersionTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leneau.VersionTracker;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		274A7E871D07CD9800397F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VersionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leneau.VersionTracker-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		274A7E881D07CD9800397F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VersionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leneau.VersionTracker-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		274A7EA01D07CDCF00397F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = VersionTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leneau.VersionTracker;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		274A7EA11D07CDCF00397F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = VersionTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leneau.VersionTracker;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		274A7EA31D07CDCF00397F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VersionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leneau.VersionTracker-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		274A7EA41D07CDCF00397F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VersionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leneau.VersionTracker-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		27E6E9DA1CB0DECE00AEDAE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -405,6 +835,46 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		274A7E6A1D07CCE200397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A7E6B1D07CCE200397F9B /* Debug */,
+				274A7E6C1D07CCE200397F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274A7E831D07CD9800397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A7E841D07CD9800397F9B /* Debug */,
+				274A7E851D07CD9800397F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274A7E861D07CD9800397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A7E871D07CD9800397F9B /* Debug */,
+				274A7E881D07CD9800397F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274A7E9F1D07CDCF00397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A7EA01D07CDCF00397F9B /* Debug */,
+				274A7EA11D07CDCF00397F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274A7EA21D07CDCF00397F9B /* Build configuration list for PBXNativeTarget "VersionTracker-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274A7EA31D07CDCF00397F9B /* Debug */,
+				274A7EA41D07CDCF00397F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		27E6E9C21CB0DECE00AEDAE0 /* Build configuration list for PBXProject "VersionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
